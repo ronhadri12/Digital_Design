@@ -1,0 +1,110 @@
+$date
+	Thu Mar 22 14:56:52 2018
+$end
+
+$version
+	Synopsys VCS version L-2016.06_Full64
+$end
+
+$timescale
+	10ps
+$end
+
+$comment Csum: 1 9b99af8d7dc23a65 $end
+
+
+$scope module stimulus $end
+$var reg 18 ! vAddr [17:0] $end
+$var reg 8 " vInData [7:0] $end
+$var wire 1 # vOutData [7] $end
+$var wire 1 $ vOutData [6] $end
+$var wire 1 % vOutData [5] $end
+$var wire 1 & vOutData [4] $end
+$var wire 1 ' vOutData [3] $end
+$var wire 1 ( vOutData [2] $end
+$var wire 1 ) vOutData [1] $end
+$var wire 1 * vOutData [0] $end
+$var reg 1 + cCE $end
+$var reg 1 , cWE $end
+$var integer 32 - i $end
+
+$scope module SRAM_01 $end
+$var wire 18 ! Address [17:0] $end
+$var wire 8 " InData [7:0] $end
+$var wire 1 + bCE $end
+$var wire 1 , bWE $end
+$var reg 8 . OutData [7:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+1+
+1,
+z*
+z)
+z(
+z'
+z&
+z%
+z$
+z#
+bzzzzzzzz .
+b00000000000000000000000000111101 -
+bxxxxxxxxxxxxxxxxxx !
+bxxxxxxxx "
+$end
+#1000
+b000000000000111101 !
+b00111101 "
+#2000
+0,
+#2200
+0+
+b00000000000000000000000000111110 -
+#3200
+b000000000000111110 !
+b00111110 "
+#4400
+b00000000000000000000000000111111 -
+#5400
+b000000000000111111 !
+b00111111 "
+#6600
+b00000000000000000000000001000000 -
+#6800
+1+
+b00000000000000000000000000111101 -
+#7800
+b000000000000111101 !
+bxxxxxxxx "
+#8800
+1,
+#9000
+0+
+b00000000000000000000000000111110 -
+b00111101 .
+0#
+0$
+1%
+1&
+1'
+1(
+0)
+1*
+#10000
+b000000000000111110 !
+b00111110 .
+1)
+0*
+#11200
+b00000000000000000000000000111111 -
+#12200
+b000000000000111111 !
+b00111111 .
+1*
+#13400
+b00000000000000000000000001000000 -
