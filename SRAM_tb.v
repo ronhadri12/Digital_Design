@@ -1,9 +1,11 @@
+// SRAM
 // TESTBENCH
 
 `timescale 1ns/10ps
 `include "SRAM.v"
 
 module stimulus;
+	
 	parameter dAddrSize = 18;
 	parameter dWordSize = 8;
 	
